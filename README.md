@@ -145,3 +145,122 @@ The reactivity obtained are close to each other. The small difference is due to 
 
 Here I estimate the worth associated with the Phase III test using an estimate for the subcriticality level prior to the reactivity change from the Phase II tests.
 
+<p align="center"> 
+<img src="Images/18.png"| width=600 height=400>
+</p>
+
+<p align="center"> 
+<img src="Images/19.png"| width=600 height=400>
+</p>
+
+In this part, the reactor operator withdrew blade#1 from 0 to 15 inches (~2 inches away from the initial critical height of 16.95). The initial count rate (C<sub>0</sub>) was ~42 cps. After the ramp change and waiting sufficient time for the reactor to stabilize, the final count rate (C<sub>1</sub>) reached ~320 cps.
+
+\begin{gather*}
+Total\ reactivity\ change=\Delta\rho=\rho_1-\rho_0=\rho_0\left(\frac{1-\frac{C_1}{C_0}}{\frac{C_1}{C_0}}\right) \\
+\Delta\rho=-2.299\left(%\frac{\Delta k}{k}\right)\times\left(\frac{1-\frac{320}{42}}{\frac{320}{42}}\right)=1.997%\frac{\Delta k}{k}\ 
+\end{gather*}
+
+**Analytical:**
+
+\begin{gather*}
+\Delta\rho\left($\right)=Δρ %∆kk100%*βumlrr=1.997%100%×0.0078=$2.56
+\end{gather*}
+
+Using the **blade worth curve**:
+Blade 1 was withdrawn from 0 to 15 inches.
+
+<p align="center"> 
+<img src="Images/20.png"| width=600>
+</p>
+
+**Numerical:**
+Using the matlab code ```Problem5.m``` that was written to calculate the measured &Delta;&rho;:
+
+<p align="center"> 
+<img src="Images/21.png"| width=600>
+</p>
+
+<p align="center"> 
+<img src="Images/22.png"| width=600>
+</p>
+
+&Delta;&rho;=\$2.545
+
+To wrap up:
+
+Method             | (\$) &Delta;&rho;  
+------------------ | -------------------
+Analytical | 2.56
+Blade worth curve | 2.535
+Matlab (numerical) | 2.545
+
+The reactivity obtained from the 3 above methods were similar to each other which shows that our approach to measure the change in reactivity was correct.
+
+##  Source Jerk Method
+
+In this section, I will try to estimate the subcriticality level at the beginning of the Phase IV sequence. 
+In phase 4, we are going to use the following expression to measure the subcriticality level:
+
+\begin{gather*}
+\left|\frac{\rho_0}{\beta}\right|=\frac{t_dT_{0^-}}{\int_{0^+}^{\infty}{T\left(t\right)\ dt}}=\frac{t_dP_{0^-}}{\int_{0^+}^{\infty}{P\left(t\right)\ dt}}
+\end{gather*}
+
+Where:
+- t<sub>d</sub> is obtained from the kinetics data
+- T<sub>0-</sub>  (first value in the pmnorm array)
+- T(t)dt (calculated using trapz function). 
+
+The following expression will be used in our calculations:
+
+\begin{gather*}
+\frac{C\left(t\right)}{C_0}=\frac{T\left(t\right)}{T_0}=\frac{P\left(t\right)}{P_0}
+\end{gather*}
+
+<p align="center"> 
+<img src="Images/23.png"| width=600 height=400>
+</p>
+
+C<sub>0</sub>=C<sub>1</sub> from phase 3 = 320 cps
+
+**Analytical solution:**
+
+From phase 3:
+
+\begin{gather*}
+\rho_1=\ \Delta\rho+\rho_0=$2.545+\left(-$2.947\right)=-0.402\ 
+\end{gather*}
+
+Sub criticality level:
+
+\begin{gather*}
+\rho_0\ in\ phase\ 4=\rho_1\ in\ phase\ 3
+\end{gather*}
+
+Using **blade worth curve**:
+
+<p align="center"> 
+<img src="Images/24.png"| width=600>
+</p>
+
+**Numerical solution:**
+Using the code ```Problem6.m``` prepared in matlab to solve this part:
+
+<p align="center"> 
+<img src="Images/25.png"| width=600>
+</p>
+
+<p align="center"> 
+<img src="Images/26.png"| width=350>
+</p>
+
+The graph associated with removing the startup source has a decreasing trend as expected.
+
+To wrap up:
+
+Method             | (\$) &Delta;&rho;  
+------------------ | -------------------
+Analytical | -0.402
+Blade worth curve | -0.413
+Matlab (numerical) | -0.403
+
+The reactivity obtained from the 3 above methods were similar to each other which shows that our approach to measure the change in reactivity was correct.
