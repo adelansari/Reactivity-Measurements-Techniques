@@ -157,11 +157,31 @@ In this part, the reactor operator withdrew blade#1 from 0 to 15 inches (~2 inch
 
 <p align="center"><img src="/tex/6c22c2a04c9e89f00d46cfa1dd748f5b.svg?invert_in_darkmode&sanitize=true" align=middle width=410.10482039999994pt height=49.315569599999996pt/></p>
 
-<img src="/tex/0568acf1f653cb3f3a4fb9118f70ffff.svg?invert_in_darkmode&sanitize=true" align=middle width=100.73639895pt height=24.65753399999998pt/>
+<p align="center"><img src="/tex/666478a9b7409f0594307424b73d0170.svg?invert_in_darkmode&sanitize=true" align=middle width=100.73639895pt height=16.438356pt/></p>
 
 **Analytical:**
 
-<img src="/tex/2fa56a5d08f2c96fe47903df6e3188df.svg?invert_in_darkmode&sanitize=true" align=middle width=39.54913874999998pt height=24.65753399999998pt/>\right)=Δρ %∆kk100%*βumlrr=1.997%100%×0.0078=\$2.56<img src="/tex/a205471b2b67d36b995286eba0042ce5.svg?invert_in_darkmode&sanitize=true" align=middle width=700.274553pt height=282.55708469999996pt/>2.545
+<p align="center"><img src="/tex/c3eab9a8c7b84f55276feb1af3086c9a.svg?invert_in_darkmode&sanitize=true" align=middle width=63.29337794999999pt height=16.438356pt/></p>
+
+Using the **blade worth curve**:
+Blade 1 was withdrawn from 0 to 15 inches.
+
+<p align="center"> 
+<img src="Images/20.png"| width=600>
+</p>
+
+**Numerical:**
+Using the matlab code ```Problem5.m``` that was written to calculate the measured &Delta;&rho;:
+
+<p align="center"> 
+<img src="Images/21.png"| width=600>
+</p>
+
+<p align="center"> 
+<img src="Images/22.png"| width=600>
+</p>
+
+&Delta;&rho;=\$2.545
 
 To wrap up:
 
