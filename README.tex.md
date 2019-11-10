@@ -156,15 +156,14 @@ Here I estimate the worth associated with the Phase III test using an estimate f
 In this part, the reactor operator withdrew blade#1 from 0 to 15 inches (~2 inches away from the initial critical height of 16.95). The initial count rate (C<sub>0</sub>) was ~42 cps. After the ramp change and waiting sufficient time for the reactor to stabilize, the final count rate (C<sub>1</sub>) reached ~320 cps.
 
 \begin{gather*}
-Total\ reactivity\ change=\Delta\rho=\rho_1-\rho_0=\rho_0\left(\frac{1-\frac{C_1}{C_0}}{\frac{C_1}{C_0}}\right) \\
-\mathrm{\Delta\rho}=-2.299(%\mathrm{\Delta k}/k)\times((1-320/42)/(320/42))=1.997%\mathrm{\Delta k}/k\  
+Total\ reactivity\ change=\Delta\rho=\rho_1-\rho_0=\rho_0\left(\frac{1-\frac{C_1}{C_0}}{\frac{C_1}{C_0}}\right)
 \end{gather*}
+
+$$ \Delta\rho=-2.299(%\Delta k/k)\times((1-320/42)/(320/42))=1.997%\Delta k/k $$
 
 **Analytical:**
 
-\begin{gather*}
-\mathrm{\Delta\rho}(\$)=(\mathrm{\Delta\rho}\ %∆k/k)/(100%*β_umlrr )=(1.997%)/(100%×0.0078)=\$2.56
-\end{gather*}
+$$ \Delta\rho(\$)=(\Delta\rho\ %∆k/k)/(100%*β_umlrr )=(1.997%)/(100%×0.0078)=\$2.56 $$
 
 Using the **blade worth curve**:
 Blade 1 was withdrawn from 0 to 15 inches.
