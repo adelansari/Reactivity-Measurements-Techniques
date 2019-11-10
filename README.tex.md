@@ -160,7 +160,7 @@ Total\ reactivity\ change=\Delta\rho=\rho_1-\rho_0=\rho_0\left(\frac{1-\frac{C_1
 \end{gather*}
 
 $$
-\Delta\rho = -2.299 (\% \Delta k/k) \times ((1-320/42)/(320/42)) = 1.997\% \Delta k/k
+\Delta\rho=-2.299\left(\%\frac{\Delta k}{k}\right)\times\left(\frac{1-\frac{320}{42}}{\frac{320}{42}}\right)=1.997\%\frac{\Delta k}{k}
 $$
 
 **Analytical:**
