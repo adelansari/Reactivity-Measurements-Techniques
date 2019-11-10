@@ -157,7 +157,7 @@ In this part, the reactor operator withdrew blade#1 from 0 to 15 inches (~2 inch
 
 <p align="center"><img src="/tex/6c22c2a04c9e89f00d46cfa1dd748f5b.svg?invert_in_darkmode&sanitize=true" align=middle width=410.10482039999994pt height=49.315569599999996pt/></p>
 
-<p align="center"><img src="/tex/b8e17cda40933e40727ef5f059c56aaf.svg?invert_in_darkmode&sanitize=true" align=middle width=467.63198459999995pt height=16.438356pt/></p>
+<p align="center"><img src="/tex/fe503ce12cef7544cf76de9f6f7a265c.svg?invert_in_darkmode&sanitize=true" align=middle width=359.65888695pt height=43.715357399999995pt/></p>
 
 **Analytical:**
 
