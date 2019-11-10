@@ -155,11 +155,11 @@ Here I estimate the worth associated with the Phase III test using an estimate f
 
 In this part, the reactor operator withdrew blade#1 from 0 to 15 inches (~2 inches away from the initial critical height of 16.95). The initial count rate (C<sub>0</sub>) was ~42 cps. After the ramp change and waiting sufficient time for the reactor to stabilize, the final count rate (C<sub>1</sub>) reached ~320 cps.
 
-<p align="center"><img src="/tex/805d0c6415988a70a7eb5f45c9f63d79.svg?invert_in_darkmode&sanitize=true" align=middle width=410.10482039999994pt height=73.80865469999999pt/></p>
+<p align="center"><img src="/tex/5321333d28ea1a62a798abb565cf1ed9.svg?invert_in_darkmode&sanitize=true" align=middle width=410.10482039999994pt height=73.80865469999999pt/></p>
 
 **Analytical:**
 
-<p align="center"><img src="/tex/0578e222abea7b67f67dd93227501284.svg?invert_in_darkmode&sanitize=true" align=middle width=93.71010165pt height=16.438356pt/></p>
+<p align="center"><img src="/tex/ea03dced1d2f9d7f8747e2fea5248889.svg?invert_in_darkmode&sanitize=true" align=middle width=93.7100967pt height=16.438356pt/></p>
 
 Using the **blade worth curve**:
 Blade 1 was withdrawn from 0 to 15 inches.
