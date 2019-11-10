@@ -166,7 +166,7 @@ $$
 **Analytical:**
 
 $$
-\Delta\rho\left(\$\right)=Δρ \%∆kk100\%*βumlrr=1.997\%100\%×0.0078=\$2.56
+Δρ(\$)=(Δρ \%∆k/k)/(100\%*β_umlrr )=(1.997\%)/(100\%×0.0078)=\$2.56
 $$
 
 Using the **blade worth curve**:
