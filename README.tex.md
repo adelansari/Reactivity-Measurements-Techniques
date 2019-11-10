@@ -157,13 +157,13 @@ In this part, the reactor operator withdrew blade#1 from 0 to 15 inches (~2 inch
 
 \begin{gather*}
 Total\ reactivity\ change=\Delta\rho=\rho_1-\rho_0=\rho_0\left(\frac{1-\frac{C_1}{C_0}}{\frac{C_1}{C_0}}\right) \\
-\Delta\rho=-2.299\left(%\frac{\Delta k}{k}\right)\times\left(\frac{1-\frac{320}{42}}{\frac{320}{42}}\right)=1.997%\frac{\Delta k}{k}\ 
+\Delta\rho=-2.299(%\Delta k/k)\times((1-320/42)/(320/42))=1.997%\Delta k/k 
 \end{gather*}
 
 **Analytical:**
 
 \begin{gather*}
-\Delta\rho\left($\right)=Δρ %∆kk100%*βumlrr=1.997%100%×0.0078=$2.56
+\Delta\rho(\$)=(\Delta\rho\ %∆k/k)/(100%*β_umlrr )=(1.997%)/(100%×0.0078)=\$2.56 
 \end{gather*}
 
 Using the **blade worth curve**:
@@ -227,7 +227,7 @@ C<sub>0</sub>=C<sub>1</sub> from phase 3 = 320 cps
 From phase 3:
 
 \begin{gather*}
-\rho_1=\ \Delta\rho+\rho_0=$2.545+\left(-$2.947\right)=-0.402\ 
+\rho_1=\ \Delta\rho+\rho_0=\$2.545+\left(-\$2.947\right)=-0.402\ 
 \end{gather*}
 
 Sub criticality level:
