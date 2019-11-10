@@ -160,13 +160,13 @@ Total\ reactivity\ change=\Delta\rho=\rho_1-\rho_0=\rho_0\left(\frac{1-\frac{C_1
 \end{gather*}
 
 $$
-\Delta\rho = -2.299 (% \Delta k/k) \times ((1-320/42)/(320/42)) = 1.997% \Delta k/k
+\Delta\rho = -2.299 (\% \Delta k/k) \times ((1-320/42)/(320/42)) = 1.997\% \Delta k/k
 $$
 
 **Analytical:**
 
 $$
-\Delta\rho\left(\$\right)=Δρ %∆kk100%*βumlrr=1.997%100%×0.0078=\$2.56
+\Delta\rho\left(\$\right)=Δρ \%∆kk100\%*βumlrr=1.997\%100\%×0.0078=\$2.56
 $$
 
 Using the **blade worth curve**:
