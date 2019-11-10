@@ -157,11 +157,11 @@ In this part, the reactor operator withdrew blade#1 from 0 to 15 inches (~2 inch
 
 <p align="center"><img src="/tex/6c22c2a04c9e89f00d46cfa1dd748f5b.svg?invert_in_darkmode&sanitize=true" align=middle width=410.10482039999994pt height=49.315569599999996pt/></p>
 
-<p align="center"><img src="/tex/666478a9b7409f0594307424b73d0170.svg?invert_in_darkmode&sanitize=true" align=middle width=100.73639895pt height=16.438356pt/></p>
+<p align="center"><img src="/tex/b8e17cda40933e40727ef5f059c56aaf.svg?invert_in_darkmode&sanitize=true" align=middle width=467.63198459999995pt height=16.438356pt/></p>
 
 **Analytical:**
 
-<p align="center"><img src="/tex/c3eab9a8c7b84f55276feb1af3086c9a.svg?invert_in_darkmode&sanitize=true" align=middle width=63.29337794999999pt height=16.438356pt/></p>
+<p align="center"><img src="/tex/764ffc6b533263dad22a72a4e4be5e47.svg?invert_in_darkmode&sanitize=true" align=middle width=414.84639569999996pt height=16.438356pt/></p>
 
 Using the **blade worth curve**:
 Blade 1 was withdrawn from 0 to 15 inches.
