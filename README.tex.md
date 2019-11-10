@@ -159,11 +159,11 @@ In this part, the reactor operator withdrew blade#1 from 0 to 15 inches (~2 inch
 Total\ reactivity\ change=\Delta\rho=\rho_1-\rho_0=\rho_0\left(\frac{1-\frac{C_1}{C_0}}{\frac{C_1}{C_0}}\right)
 \end{gather*}
 
-$$ \Delta\rho=-2.299(%\Delta k/k)\times((1-320/42)/(320/42))=1.997%\Delta k/k $$
+$$ Δρ=-2.299(%Δk/k)×((1-320/42)/(320/42))=1.997%Δk/k $$
 
 **Analytical:**
 
-$$ \Delta\rho(\$)=(\Delta\rho\ %∆k/k)/(100%*β_umlrr )=(1.997%)/(100%×0.0078)=\$2.56 $$
+$$ Δρ(\$)=(Δρ %∆k/k)/(100%*β_umlrr )=(1.997%)/(100%×0.0078)=\$2.56 $$
 
 Using the **blade worth curve**:
 Blade 1 was withdrawn from 0 to 15 inches.
