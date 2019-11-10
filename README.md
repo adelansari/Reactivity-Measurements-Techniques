@@ -114,7 +114,7 @@ The negative was added because the start-up source is opposite in magnitude to t
 Here I estimate the amount of reactivity inserted when Blade #1 was dropped into the core. 
 
 <p align="center"> 
-<img src="Images/13.png"| width=600>
+<img src="Images/13.png"| width=600 height=400>
 </p>
 
 The reactivity can be estimated by integrating the area under the power curve and subtracting the background from it.
@@ -129,7 +129,7 @@ By loading ```Problem4.dat``` data file in ```Problem4.m``` code, the following 
 </p>
 
 <p align="center"> 
-<img src="Images/16.png"| width=600>
+<img src="Images/16.png"| width=350>
 </p>
 
 Using the blade worth curve:
@@ -138,3 +138,10 @@ Blade 1 was withdrawn from 16.95 inches to 0.
 <p align="center"> 
 <img src="Images/17.png"| width=600>
 </p>
+
+The reactivity obtained are close to each other. The small difference is due to the error in specifying the region of interest in the data file. Furthermore, the fuel depletion plays a rule here since the blade curves were produced on Jan, 2016.
+
+## Subcritical Multiplication Factor Method
+
+Here I estimate the worth associated with the Phase III test using an estimate for the subcriticality level prior to the reactivity change from the Phase II tests.
+
