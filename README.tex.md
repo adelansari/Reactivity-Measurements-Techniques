@@ -31,15 +31,15 @@ Processes the data from the Phase I tests and use the Stable Period Method to de
 A reduced data file ```Problem2_positive.dat``` was created using UMLRR GUI. I wrote a code ```Problem2_positive.m``` that generates various plots for the specified region.
 
 <p align="center"> 
-<img src="Images/1.png"| width=600>
+<img src="Images/1.png" width=600>
 </p>
 
 <p align="center"> 
-<img src="Images/2.png"| width=600>
+<img src="Images/2.png width=600>
 </p>
 
 <p align="center"> 
-<img src="Images/3.png"| width=600>
+<img src="Images/3.png" width=600>
 </p>
 
 
@@ -50,11 +50,11 @@ Total reactivity change (\$) = ρ<sub>1</sub> - ρ<sub>0</sub> = \$0.0858 - \$0 
 Regblade was withdrawn from 10.41 inches to 13.47 inches as shown below:
 
 <p align="center"> 
-<img src="Images/7.png"| width=600>
+<img src="Images/7.png" width=600>
 </p>
 
 <p align="center"> 
-<img src="Images/8.png"| width=600>
+<img src="Images/8.png" width=600>
 </p>
 
 The measured ρ obtained from the real experiment and calculated using the code written in Matlab (\$0.0858)  is almost the same as the one calculated from the blade_worth_curve.p (\$0.0859). The very small change is believed to be caused by the different change in total reactivity per inch due to the fuel consumption. Effects of feedback might have caused the small difference as it was not present in the experiment (feedback is important at 10 kW). However, the blade worth curve might have included the feedback effect. 
@@ -62,15 +62,15 @@ The measured ρ obtained from the real experiment and calculated using the code 
 **Phase 2: Negative ρ**
 
 <p align="center"> 
-<img src="Images/4.png"| width=600>
+<img src="Images/4.png" width=600>
 </p>
 
 <p align="center"> 
-<img src="Images/5.png"| width=600>
+<img src="Images/5.png" width=600>
 </p>
 
 <p align="center"> 
-<img src="Images/6.png"| width=600>
+<img src="Images/6.png" width=600>
 </p>
 
 According to the result generated in the command windows:
@@ -80,11 +80,11 @@ Total reactivity change (\$) = ρ<sub>1</sub> - ρ<sub>0</sub> = -\$0.1187 - \$0
 Regblade was withdrawn from 10.630 inches to 6.168 inches as shown below:
 
 <p align="center"> 
-<img src="Images/9.png"| width=600>
+<img src="Images/9.png" width=600>
 </p>
 
 <p align="center"> 
-<img src="Images/10.png"| width=600>
+<img src="Images/10.png" width=600>
 </p>
 
 ## Startup Source Insertion
@@ -95,7 +95,7 @@ The fission source dominates the external source in terms of fission production 
 By putting the source in, some of the water reflector will be removed which represents a negative reactivity. In order for the reactor to stay essentially critical, the regblade will come out a little.
 
 <p align="center"> 
-<img src="Images/11.png"| width=600>
+<img src="Images/11.png" width=600>
 </p>
 
 Insertion of startup source added negative reactivity. Since the regblade is in automode, it will try to maintain constant power by withdrawing the regblade. The total reactivity change by taking into account the initial position of the blade and final position are found as shown below:
@@ -103,7 +103,7 @@ Insertion of startup source added negative reactivity. Since the regblade is in 
 Regblade was withdrawn from 10.96 inches to 11.03 inches.
 
 <p align="center"> 
-<img src="Images/12.png"| width=600>
+<img src="Images/12.png" width=600>
 </p>
 
 The value is very small since the start-up source is only effective in the subcritical region.
@@ -114,29 +114,29 @@ The negative was added because the start-up source is opposite in magnitude to t
 Here I estimate the amount of reactivity inserted when Blade #1 was dropped into the core. 
 
 <p align="center"> 
-<img src="Images/13.png"| width=600 height=400>
+<img src="Images/13.png" width=600 height=400>
 </p>
 
 The reactivity can be estimated by integrating the area under the power curve and subtracting the background from it.
 By loading ```Problem4.dat``` data file in ```Problem4.m``` code, the following plots and output was obtained:
 
 <p align="center"> 
-<img src="Images/14.png"| width=600>
+<img src="Images/14.png" width=600>
 </p>
 
 <p align="center"> 
-<img src="Images/15.png"| width=600>
+<img src="Images/15.png" width=600>
 </p>
 
 <p align="center"> 
-<img src="Images/16.png"| width=350>
+<img src="Images/16.png" width=350>
 </p>
 
 Using the blade worth curve:
 Blade 1 was withdrawn from 16.95 inches to 0.
 
 <p align="center"> 
-<img src="Images/17.png"| width=600>
+<img src="Images/17.png" width=600>
 </p>
 
 The reactivity obtained are close to each other. The small difference is due to the error in specifying the region of interest in the data file. Furthermore, the fuel depletion plays a rule here since the blade curves were produced on Jan, 2016.
@@ -146,11 +146,11 @@ The reactivity obtained are close to each other. The small difference is due to 
 Here I estimate the worth associated with the Phase III test using an estimate for the subcriticality level prior to the reactivity change from the Phase II tests.
 
 <p align="center"> 
-<img src="Images/18.png"| width=600 height=400>
+<img src="Images/18.png" width=600 height=400>
 </p>
 
 <p align="center"> 
-<img src="Images/19.png"| width=600 height=400>
+<img src="Images/19.png" width=600 height=400>
 </p>
 
 In this part, the reactor operator withdrew blade#1 from 0 to 15 inches (~2 inches away from the initial critical height of 16.95). The initial count rate (C<sub>0</sub>) was ~42 cps. After the ramp change and waiting sufficient time for the reactor to stabilize, the final count rate (C<sub>1</sub>) reached ~320 cps.
@@ -173,18 +173,18 @@ Using the **blade worth curve**:
 Blade 1 was withdrawn from 0 to 15 inches.
 
 <p align="center"> 
-<img src="Images/20.png"| width=600>
+<img src="Images/20.png" width=600>
 </p>
 
 **Numerical:**
 Using the matlab code ```Problem5.m``` that was written to calculate the measured &Delta;&rho;:
 
 <p align="center"> 
-<img src="Images/21.png"| width=600>
+<img src="Images/21.png" width=600>
 </p>
 
 <p align="center"> 
-<img src="Images/22.png"| width=600>
+<img src="Images/22.png" width=600>
 </p>
 
 &Delta;&rho;=\$2.545
@@ -220,7 +220,7 @@ The following expression will be used in our calculations:
 \end{gather*}
 
 <p align="center"> 
-<img src="Images/23.png"| width=600 height=400>
+<img src="Images/23.png" width=600 height=400>
 </p>
 
 C<sub>0</sub>=C<sub>1</sub> from phase 3 = 320 cps
@@ -242,18 +242,18 @@ Sub criticality level:
 Using **blade worth curve**:
 
 <p align="center"> 
-<img src="Images/24.png"| width=600>
+<img src="Images/24.png" width=600>
 </p>
 
 **Numerical solution:**
 Using the code ```Problem6.m``` prepared in matlab to solve this part:
 
 <p align="center"> 
-<img src="Images/25.png"| width=600>
+<img src="Images/25.png" width=600>
 </p>
 
 <p align="center"> 
-<img src="Images/26.png"| width=350>
+<img src="Images/26.png" width=350>
 </p>
 
 The graph associated with removing the startup source has a decreasing trend as expected.
