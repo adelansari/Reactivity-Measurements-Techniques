@@ -35,7 +35,7 @@ A reduced data file ```Problem2_positive.dat``` was created using UMLRR GUI. I w
 </p>
 
 <p align="center"> 
-<img src="Images/2.png" width=600>
+<img src="Images/2.png width=600>
 </p>
 
 <p align="center"> 
